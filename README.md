@@ -46,6 +46,13 @@ See `moo --help` for detailed options and examples.
 pip install moo
 ```
 
+You may need to install the `libffi-dev` package first. On Debian or Ubuntu-based Linux systems:
+
+```bash
+sudo apt-get install libffi-dev
+```
+
+
 ## Troubleshooting
 
 If you get this error when running `moo`: `NameError: name 'PROTOCOL_SSLv3' is not defined`, upgrading `moo` and it's dependencies may fix it:
